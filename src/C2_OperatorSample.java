@@ -8,7 +8,7 @@ public class C2_OperatorSample {
         System.out.println("Bir rakam giriniz");
 
         int rakam = sc.nextInt(); // kullanıcıdan okunan değer
-        // ternaryif
+        // ternaryif if else kodunun kısa yazım hali.
         boolean ciftMi = rakam % 2 == 0; // rakamın 2'ye bölümünden kalan sıfır ise rakam çiftir.
 
         String mesaj = ciftMi ? "rakam çiftir":"rakam tektir";
